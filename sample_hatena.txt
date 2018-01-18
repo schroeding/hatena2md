@@ -1,0 +1,58 @@
+* Hatena Syntax (はてな記法)
+
+[:contents]
+
+** Lists
+
+-foo
+--bar
+--baz
+
++foo
+++bar
+++baz
+
+** Quotes
+
+>>
+Quote!
++still
+++in the quote
+<<
+
+** Tables
+
+| *language | *birth | *mascot |
+| Perl      | 1987   | Camel   |
+| Go        | 2009   | Gopher  |
+
+** Super-Pre
+
+>|css|
+*:.foo {
+	width: 999px;
+}
+||<
+
+>||
+Lorep Ipsum
+* Dolor Amet
+||<
+
+** Footnotes
+
+This is a ((footnote))!
+
+** Links
+
+[https://hatenablog.com/?locale.lang=en:title] [http://de.wikipedia.org/:title=Wikipedia in German]
+
+[http://en.wikipedia.org/wiki/Munich] http://en.wikipedia.org/wiki/Munich:title
+
+[google:Munich]
+[google:images:Munich]
+
+[wikipedia:en:Munich]
+[]https://hatenablog.com/[]
+
+[isbn:9783548234106]
